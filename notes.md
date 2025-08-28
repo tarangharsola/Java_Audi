@@ -142,32 +142,7 @@ Whenever a method is declared as static, it can be directly invoked without crea
 
 > Read Initializers from the Internet.
 
-```java
-class Bank{
-    int balance;
-    static String BankName;
-    Bank(int b){
-        balance = b;
-    }
-    {
-        BankName = "1";
-        System.out.println("Initializer 1 Called "+BankName);
-    }
-    static {
-        BankName = "something";
-        System.out.println("Static Initializer Called "+BankName);
-    }
-    {
-        BankName = "2";
-        System.out.println("Initializer 2 Called "+BankName);
-    }
-
-    public static void main(String[] args){
-        Bank b1 = new Bank(2);
-        System.out.println(b1.balance);
-    }
-}
-```
+- Run [This](./Bank.java) to see more about initializers.
 
 `{ ... }` is called **Instance Initializer**, its called by JVM automatically before anything else, and if there are multiple then they are called in the order they are defined.
 
