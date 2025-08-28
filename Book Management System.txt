@@ -1,0 +1,51 @@
+/*
+Write a Java Program for Book Management System using OOPs concepts which stores book details
+such as Book ID, Title, Author, Price per copy, Number of copies available and 
+calculate the total value of books in stock, Check if a book is in stock, apply discount on price and display.
+
+
+Hint:
+calculateTotalValue= price × copies
+applyDiscount=reduces price by given percentage
+isAvailable= returns true if copies > 0
+
+Create a class Book with:
+Fields: bookId, title, author, price, copies
+Constructor to initialize all fields
+
+In the main() method:
+Create at least 3 Book objects
+Apply discount to some books
+Display the book details
+
+Sample Input-Output:
+Book ID       : 301
+Title         : Wings of Fire
+Author        : A.P.J. Abdul Kalam
+Price         : ₹315.0
+Copies in stock: 20
+Total Value   : ₹6300.0
+Available?    : Yes
+
+Book ID       : 302
+Title         : The Alchemist
+Author        : Paulo Coelho
+Price         : ₹299.0
+Copies in stock: 0
+Total Value   : ₹0.0
+Available?    : No
+
+Book ID       : 303
+Title         : Clean Code
+Author        : Robert C. Martin
+Price         : ₹475.0
+Copies in stock: 15
+Total Value   : ₹7125.0
+Available?    : Yes
+
+
+
+
+
+
+*/

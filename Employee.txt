@@ -1,0 +1,91 @@
+/*
+Write a Java Program for Employee Salary Management System using OOPs Concepts which stores employee information such as EmployeeID, Name,
+Department, Basic Salary then calculate HRA,DA and Gross Salary and display employee details along with DA,HRA and Gross Salary.
+
+Hint:
+Calculating salary components using the following formulas:
+HRA (House Rent Allowance) = 20% of Basic Salary
+DA (Dearness Allowance) = 10% of Basic Salary
+Gross Salary = Basic Salary + HRA + DA
+
+Create a class Employee with:
+Fields: empId, name, department, basicSalary
+Constructor to initialize all fields
+Methods:
+calculateHRA()
+calculateDA()
+calculateGrossSalary()
+displayDetails()
+In the main method:
+Create at least 3 Employee objects using the constructor
+Call appropriate methods to display employee details and salary.
+
+Sample Input&Output:
+Employee ID      : 1001                                                                                                                               
+Name             : Sonal Mehra                                                                                                                        
+Department       : Marketing                                                                                                                          
+Basic Salary     : ₹45000.0                                                                                                                           
+HRA (20%)        : ₹9000.0                                                                                                                            
+DA (10%)         : ₹4500.0                                                                                                                            
+Gross Salary     : ₹58500.0                                                                                                                           
+----------------------------------------                                                                                                              
+Employee ID      : 1002                                                                                                                               
+Name             : Rahul Deshmukh                                                                                                                     
+Department       : Development                                                                                                                        
+Basic Salary     : ₹60000.0                                                                                                                           
+HRA (20%)        : ₹12000.0                                                                                                                           
+DA (10%)         : ₹6000.0                                                                                                                            
+Gross Salary     : ₹78000.0                                                                                                                           
+----------------------------------------                                                                                                              
+Employee ID      : 1003                                                                                                                               
+Name             : Priya Nair                                                                                                                         
+Department       : Finance                                                                                                                            
+Basic Salary     : ₹55000.0                                                                                                                           
+HRA (20%)        : ₹11000.0                                                                                                                           
+DA (10%)         : ₹5500.0                                                                                                                            
+Gross Salary     : ₹71500.0 
+
+
+
+*/
+// Class Definition
+class Employee {
+    // Fields
+    int empId;
+    String name;
+    String department;
+    double basicSalary;
+
+    // Constructor
+    Employee(int id, String empName, String dept, double basic) {
+        //write your code here
+    }
+
+    // Calculate HRA (House Rent Allowance) - 20% of basic
+    double calculateHRA() {
+        //write your code here
+    }
+
+    // Calculate DA (Dearness Allowance) - 10% of basic
+    double calculateDA() {
+       //write your code here
+    }
+
+    // Calculate Gross Salary = basic + HRA + DA
+    double calculateGrossSalary() {
+        //write your code here
+    }
+
+    // Display employee details
+    void displayDetails() {
+        //write your code here
+    }
+}
+
+
+// Main Class
+public class EmployeeDemo {
+    public static void main(String[] args) {
+        //Write your code here
+    }
+}

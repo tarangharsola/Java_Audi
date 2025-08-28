@@ -1,0 +1,56 @@
+/*
+Write a Java Program for Patient Management System using OOPs Concepts which stores patient information 
+such as Patient ID, Name, Age, Gender, Disease, Admission Status (true or false), Daily charges and number of days admitted, 
+and calculate total hospital bill, Check whether the patient is currently admitted and displaying all patient details.
+
+Hint:
+calculateBill() → returns dailyCharge × daysAdmitted
+isCurrentlyAdmitted() → returns true or false
+displayPatientDetails() → prints all patient info
+
+Create a class Patient with the following:
+Fields: patientId, name, age, gender, diagnosis, isAdmitted, dailyCharge, daysAdmitted
+Constructor to initialize all fields
+
+In the main() method:
+Create at least 3 Patient objects
+Call the above methods to print patient reports
+
+Sample Input-Output:
+Patient ID       : 401
+Name             : Ravi Teja
+Age              : 45
+Gender           : Male
+Diagnosis        : Typhoid
+Admitted?        : Yes
+Daily Charge     : ₹1200.0
+Days Admitted    : 5
+Total Bill       : ₹6000.0
+
+Patient ID       : 402
+Name             : Sneha Reddy
+Age              : 30
+Gender           : Female
+Diagnosis        : Fracture
+Admitted?        : No
+Daily Charge     : ₹1500.0
+Days Admitted    : 3
+Total Bill       : ₹4500.0
+
+Patient ID       : 403
+Name             : Manoj Kumar
+Age              : 60
+Gender           : Male
+Diagnosis        : Diabetes
+Admitted?        : Yes
+Daily Charge     : ₹1000.0
+Days Admitted    : 10
+Total Bill       : ₹10000.0
+
+
+
+
+
+
+
+*/

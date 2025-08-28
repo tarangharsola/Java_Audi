@@ -1,0 +1,54 @@
+/*
+Write a Java Program for Hotel Room Booking Management System using OOPS Concepts which stores
+guest details such as Guest ID, Guest Name Room Type (e.g., Deluxe, Standard), Number of Days Stayed, 
+Room Charge per Day, Food Bill Amount ,Booking Status (true if checked in) and
+calculate total bill (Room Charges + Food Charges), Check the guest is currently checked in and Display complete guest details.
+
+Hint:
+calculateRoomCharges() → returns roomChargePerDay × numDays
+calculateTotalBill() → returns room charges + foodBill
+isCurrentlyCheckedIn() → returns true or false
+displayGuestDetails() → prints all guest info
+
+Create a class HotelGuest with:
+Fields: guestId, guestName, roomType, numDays, roomChargePerDay, foodBill, isCheckedIn
+
+In the main() method:
+Create at least 3 guest objects
+Call methods to display all details
+
+Sample Input-Output:
+Guest ID          : 501
+Name              : Arjun Mehta
+Room Type         : Deluxe
+Days Stayed       : 3
+Room Charge/Day   : ₹2500.0
+Food Bill         : ₹1800.0
+Room Charges      : ₹7500.0
+Total Bill        : ₹9300.0
+Checked In?       : Yes
+
+Guest ID          : 502
+Name              : Pooja Sharma
+Room Type         : Standard
+Days Stayed       : 2
+Room Charge/Day   : ₹1500.0
+Food Bill         : ₹1000.0
+Room Charges      : ₹3000.0
+Total Bill        : ₹4000.0
+Checked In?       : No
+
+Guest ID          : 503
+Name              : Vinay Reddy
+Room Type         : Suite
+Days Stayed       : 4
+Room Charge/Day   : ₹4000.0
+Food Bill         : ₹2500.0
+Room Charges      : ₹16000.0
+Total Bill        : ₹18500.0
+Checked In?       : Yes
+
+
+
+
+*/

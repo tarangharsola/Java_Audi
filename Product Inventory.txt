@@ -1,0 +1,45 @@
+/*
+Write a Java Program for Product Inventory Management System using OOPs concepts which stores product details 
+like Product ID,Product Name, Category, Unit Price, Quantity in Stock and 
+calculate total value of stock for each product, and display.
+
+Hint:
+Calculates total value of stock:
+1.stockValue = unitPrice × quantity
+
+Reduces the unit price by the given discount percentage
+2.newPrice = unitPrice - (percentage / 100 × unitPrice)
+
+3.Prints all product attributes and current stock value.
+
+In the main method:
+Create at least 3 product objects
+Call methods to apply discounts and display details
+
+Sample Input-Output:
+
+Product ID        : 201
+Product Name      : Wireless Mouse
+Category          : Electronics
+Unit Price        : ₹765.0
+Quantity Available: 50
+Total Stock Value : ₹38250.0
+In Stock?         : Yes
+
+Product ID        : 202
+Product Name      : Notebook A5
+Category          : Stationery
+Unit Price        : ₹38.0
+Quantity Available: 120
+Total Stock Value : ₹4560.0
+In Stock?         : Yes
+
+Product ID        : 203
+Product Name      : Water Bottle
+Category          : Home Essentials
+Unit Price        : ₹299.0
+Quantity Available: 0
+Total Stock Value : ₹0.0
+In Stock?         : No
+
+*/
