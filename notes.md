@@ -177,13 +177,32 @@ Depending on the data available, different constructors are invoked, resulting i
 
 ## Order of execution
 
-1. Class loaded
-2. Static Variables load
-3. Static Initializers load
-4. Static methods load
-5. `Bank SBI = ...` when this happens its called a instance being created.
-   - `... = new Bank(args)` is where object is constructed.
-6. Instance Variables load
-7. Instance Initializers load
-8. Constructors called
-9. methods load
+Lets see if [this](./Order.md) goes to 2 pages XD
+
+## Inheritance
+
+When one class (A) attains the state and behavior of another class (B), it is said to be following inheritance property. A is the child, derived, specialized. B is the parent, base, generalized.
+
+- Instead of having repetitive code in the similar classes, we can save the common functionality in a common class.
+
+- Changes made in the base class is affecting all the child classes.
+
+### See Example [Here](./person.java)
+
+- A parent class CAN'T access the state and behavior of child, but a Child CAN access all the state and behavior of the parent.
+
+> Whenever a child class object is getting created, the base class object gets created prior to it.
+
+- The objects are created like this :
+  - when you say `deepa.name` it checks if `Teacher` has name, then if it doesn't then it checks `person` for the name.
+  - When it finds the name it does not create a copy of instance variable for `Teacher`, **it creates instance variable `name` in the instance of the `person`**.
+
+### Static variables are inherited to children.
+
+## `super()` :
+
+- `super()` is the reference to the parent constructor.
+- `this()` is the reference to the current instance variable.
+- It should **always** be in the first line of the constructor.
+
+> Create a librarian and a principal. Each class should have its own state and behavior. Let the classes have only parameterized constructors. principle and librarian and teacher eat their lunch together after performing their duties.

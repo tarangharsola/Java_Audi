@@ -1,0 +1,31 @@
+/*
+Create a librarian and a principal classes. Each class has state and behavior.
+let principal and librarian has only parameterised constructor.
+Principal,librarian and teacher eat their lunch together after completing their duties.
+
+
+*/
+
+class Teacher {
+    String name;
+    int age;
+    void work() {
+        System.out.println("Teaching students");
+    }
+}
+
+class Student {
+    String name;
+    int age;
+    void study() {
+        System.out.println("Studying lessons");
+    }
+}
+
+class Staff {
+    String name;
+    int age;
+    void maintain() {
+        System.out.println("Maintaining school facilities");
+    }
+}
