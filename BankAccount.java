@@ -47,4 +47,8 @@ public class BankAccount {
         balance += amount;
         System.out.println("Deposited: " + amount);
     }
+    public void deposit(int amount, String method) {
+        System.out.println(method);
+        deposit(amount);
+    }
 }

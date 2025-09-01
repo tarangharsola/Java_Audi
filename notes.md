@@ -206,3 +206,15 @@ When one class (A) attains the state and behavior of another class (B), it is sa
 - It should **always** be in the first line of the constructor.
 
 > Create a librarian and a principal. Each class should have its own state and behavior. Let the classes have only parameterized constructors. principle and librarian and teacher eat their lunch together after performing their duties.
+
+### What is overriding?
+
+When the child class / derived class requires the same functionality as the parent class but wants to change its implimentation, then it wants to re define that method in its own class. This process is called as over riding.
+
+There are several rules for over riding :
+
+1. The name of the method should be same.
+2. Parameter list ( no. of parameters, data type, and order of parameters ) should be same.
+3. Return type should be same / should be the subclass of the return type of the overridden method. ( Law of Covariance )
+4. Access modifiers should not be restricted.
+5. The one in parent class is over ridden, the one in child class is over riding.
