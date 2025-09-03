@@ -309,4 +309,8 @@ Whenever a method is declared as abstract in a class, class should be declared a
 
 If we create a object from the class, if someone calls the abstract method, that method will not have a body because its abstract, so it will not know its implementation.
 
+### Why methods and classes can't be both abstract and final?
+
+Final stops inheritance, abstract demands inheritance.
+
 > ## Take a look at [this](./Cars.java) and also [this.](./car_plan.md)
