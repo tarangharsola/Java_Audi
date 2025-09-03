@@ -217,4 +217,69 @@ There are several rules for over riding :
 2. Parameter list ( no. of parameters, data type, and order of parameters ) should be same.
 3. Return type should be same / should be the subclass of the return type of the overridden method. ( Law of Covariance )
 4. Access modifiers should not be restricted.
-5. The one in parent class is over ridden, the one in child class is over riding.
+5. Final Method cannot be over ridden.
+
+The one in parent class is over ridden, the one in child class is over riding.
+
+## `final` keyword :
+
+It's basically like `const` of python. All final objects are also usually declared as static.
+
+We can use this keyword with :
+
+### Instance Variable
+
+You can only assign the value in one of 2 places, they are :
+
+1. While declaring it
+
+```java
+class Person{
+    final String name = "Bharath";
+}
+```
+
+2. In the constructor
+
+```java
+class Person{
+    final String name;
+    Person(){
+        name = "Bharath";
+    }
+}
+```
+
+### Local Variable
+
+We can assign it while declaring, or do this :
+
+```java
+final String name;
+name = "Bharath"; //immediately in next line
+```
+
+### Reference Variable
+
+We can not change the reference variable's value (Memory address), but we can use the reference variable to change what it's referring to.
+
+```java
+final Person p;
+p = new Person();
+
+p.name = "Bharath"; // works fine
+```
+
+### Methods
+
+Overriding can not be done on methods that have been declared as final. We can not change the methods once they are declared as final.
+
+- But we can inherit these methods.
+
+### Others
+
+- Initializers and constructors can not be final, because there can be more than one of constructors and initializers. And we can not say that they wont be changed.
+
+- Whenever the class is declared as final, we can not inherit the class anymore. Inheritance will get disabled.
+
+> ## Take a look at [these](./10%20questions/) problems.
