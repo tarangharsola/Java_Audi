@@ -5,7 +5,7 @@
  Both give errors, so need to remove the malicious subclass completely. 
 
 */
-final class BankAccount {
+final class Bankaccount {
     final void showBalance() {
         System.out.println("Showing balance securely");
     }
@@ -17,6 +17,6 @@ final class BankAccount {
 // }
 public class test9 {
     public static void main(String[] args) {
-        new BankAccount().showBalance();
+        new Bankaccount().showBalance();
     }
 }

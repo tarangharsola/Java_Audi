@@ -283,3 +283,30 @@ Overriding can not be done on methods that have been declared as final. We can n
 - Whenever the class is declared as final, we can not inherit the class anymore. Inheritance will get disabled.
 
 > ## Take a look at [these](./10%20questions/) problems.
+
+## Abstract
+
+Whenever a method is declared as abstract, it doesn't have any body.
+
+### Why is it necessary for the subclass to override abstract methods?
+
+When we declare a method as abstract, we are enforcing that all the children have that method. Even if we don't give it a implementation/ a body, we know that children will have to have that method and they will implement the functionality by adding their own body.
+
+- When all the children of a class override a certain method, we should delete the body of that method and declare it as abstract.
+- When the parent wants to enforce a method, but don't know how the children will use that method, it can define that method as abstract.
+- If we don't want people to create objects of a given class, we can make it abstract.
+- We have to
+
+Whenever a method is declared as abstract in a class, class should be declared as abstract too.
+
+### Abstract classes are made because :
+
+- all methods abstract
+- implementing it because a method is abstract
+- don't want to have objects.
+
+### why is a class abstract when a method is abstract?
+
+If we create a object from the class, if someone calls the abstract method, that method will not have a body because its abstract, so it will not know its implementation.
+
+> ## Take a look at [this](./Cars.java) and also [this.](./car_plan.md)
