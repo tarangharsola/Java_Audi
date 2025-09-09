@@ -282,7 +282,7 @@ Overriding can not be done on methods that have been declared as final. We can n
 
 - Whenever the class is declared as final, we can not inherit the class anymore. Inheritance will get disabled.
 
-> ## Take a look at [these](./10%20questions/) problems.
+> ## Take a look at [these](./questions/10%20questions/) problems.
 
 ## Abstract
 
@@ -314,3 +314,29 @@ If we create a object from the class, if someone calls the abstract method, that
 Final stops inheritance, abstract demands inheritance.
 
 > ## Take a look at [this](./Cars.java) and also [this.](./car_plan.md)
+
+and
+
+> ## Go through [these questions](./questions/10%20questions/)
+
+- An abstract class can have a mixture of both concrete methods and abstract methods(No body).
+- The JVM tries to protect a disaster, which is a method we invoked on an abstract class. If the method which is abstract, where will the JVM search for the body? So it does not allow to invoke methods on a abstract class.
+
+## Packages
+
+We define a class / file to be in a package by writing
+
+```java
+package Kmit;
+class example {
+    //code in example now belongs to package kmit
+}
+```
+
+- To compile a class inside a package, we do `javac classname.java -d .` where `-d` stands for directory and `.` stands for current dir.
+
+- When we run that command then we get a folder with name "kmit".
+
+- All packages can access `public` things from anywhere.
+
+- We run `classname.class` by running `java kmit.classname`
