@@ -327,7 +327,7 @@ and
 We define a class / file to be in a package by writing
 
 ```java
-package Kmit;
+package kmit;
 class example {
     //code in example now belongs to package kmit
 }
