@@ -229,6 +229,8 @@ We can use this keyword with :
 
 ### Instance Variable
 
+---
+
 You can only assign the value in one of 2 places, they are :
 
 1. While declaring it
@@ -252,6 +254,8 @@ class Person{
 
 ### Local Variable
 
+---
+
 We can assign it while declaring, or do this :
 
 ```java
@@ -260,6 +264,8 @@ name = "Bharath"; //immediately in next line
 ```
 
 ### Reference Variable
+
+---
 
 We can not change the reference variable's value (Memory address), but we can use the reference variable to change what it's referring to.
 
@@ -271,6 +277,8 @@ p.name = "Bharath"; // works fine
 ```
 
 ### Methods
+
+---
 
 Overriding can not be done on methods that have been declared as final. We can not change the methods once they are declared as final.
 
@@ -340,3 +348,11 @@ class example {
 - All packages can access `public` things from anywhere.
 
 - We run `classname.class` by running `java kmit.classname`
+
+### Single ton design pattern
+
+---
+
+There is only one object in the whole system.
+
+- See [this](./single.java) file.
